@@ -1,5 +1,5 @@
 # IAS0320_proto
-IAS0320 prototype
+IAS0320 project prototype
 
 <p align="center">
     <picture>
