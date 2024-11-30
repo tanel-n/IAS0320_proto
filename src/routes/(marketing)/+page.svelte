@@ -263,7 +263,7 @@
         <a href="/account">
           <button class="btn btn-primary btn-md px-8 text-lg">Log in</button>
         </a>
-        <a href="/blog">
+        <a href="/dfp/1">
           <button
             class="btn btn-outline btn-primary btn-md px-8 mt-3 mx-2 text-lg"
             >How it works</button
