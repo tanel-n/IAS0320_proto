@@ -21,6 +21,7 @@ export default {
           "accent-content": "#180042",
           "base-content": "#180042",
           "base-100": "#fefbf6",
+          "base-150": "#FCF4E6",
           "base-200": "#faedd6",
           success: "#37d399",
           error: "#f77272",

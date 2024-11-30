@@ -231,65 +231,42 @@
 
 <div class="hero min-h-[60vh]">
   <div class="hero-content text-center py-12">
-    <div class="max-w-xl">
+    <div class="max-w-2xl">
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        SaaS Starter Demo
+        Digital Footwear Passport
       </div>
 
       <div
-        class="text-4xl md:text-6xl font-bold px-2"
+        class="text-3xl md:text-6xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        The
+        Empowering
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >open source</span
-        >,
-        <span
-          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >fast</span
-        >, and
-        <span
-          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >free to host</span
+          >transparency</span
         >
-        <span> SaaS template</span>
-      </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">
-        Built with <a
-          href="https://kit.svelte.dev"
-          class="link font-bold"
-          target="_blank">SvelteKit</a
-        >,
-        <a href="https://supabase.com" class="link font-bold" target="_blank"
-          >Supabase</a
-        >,
-        <a href="https://stripe.com" class="link font-bold" target="_blank"
-          >Stripe</a
-        >,
-        <a href="https://tailwindcss.com" class="link font-bold" target="_blank"
-          >Tailwind</a
-        >,
-        <a href="https://daisyui.com" class="link font-bold" target="_blank"
-          >DaisyUI</a
-        >, and
-        <a
-          href="https://www.postgresql.org"
-          class="link font-bold"
-          target="_blank">Postgres</a
+        and
+        <span
+          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
+          >sustainability</span
         >
+        in footwear with the
+        <span
+          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
+          >Digital Footwear Passport</span
+        >.
       </div>
+      <div class="mt-6 md:mt-10 text-sm md:text-lg">IAS0320 Prototype</div>
       <div class="mt-6 md:mt-2">
-        <a href="https://github.com/CriticalMoments/CMSaasStarter">
-          <button class="btn btn-primary btn-sm px-6">★ us on Github</button>
+        <a href="/account">
+          <button class="btn btn-primary btn-md px-8 text-lg">Log in</button>
         </a>
-        <a
-          href="https://github.com/CriticalMoments/CMSaasStarter/tree/main#saas-starter"
-        >
-          <button class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
-            >Read the Docs</button
+        <a href="/blog">
+          <button
+            class="btn btn-outline btn-primary btn-md px-8 mt-3 mx-2 text-lg"
+            >How it works</button
           >
         </a>
       </div>
@@ -305,7 +282,7 @@
         Explore the Features
       </div>
       <div class="mt-4 text-xl font-bold">
-        And try them on this
+        In this
         <span
           class="underline decoration-secondary decoration-[3px] md:decoration-[4px]"
         >

@@ -11,16 +11,13 @@
 
 <div class="navbar bg-base-100 container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">{WebsiteName}</a>
+    <a
+      class="btn btn-ghost normal-case text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent"
+      href="/">{WebsiteName}</a
+    >
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
-      <li class="md:mx-4">
-        <a
-          href="https://github.com/CriticalMoments/CMSaasStarter"
-          class="border border-primary">★ us on Github</a
-        >
-      </li>
       <li class="md:mx-2"><a href="/blog">Blog</a></li>
       <li class="md:mx-2"><a href="/pricing">Pricing</a></li>
       <li class="md:mx-2"><a href="/account">Account</a></li>
