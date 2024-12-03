@@ -18,8 +18,10 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
+      <!--
       <li class="md:mx-2"><a href="/blog">Blog</a></li>
       <li class="md:mx-2"><a href="/pricing">Pricing</a></li>
+    -->
       <li class="md:mx-2"><a href="/account">Account</a></li>
       <li class="md:mx-0">
         <a href="/search" aria-label="Search">
@@ -96,6 +98,7 @@
         href="https://github.com/CriticalMoments/CMSaasStarter">Github</a
       >
     </nav>
+
     <aside>
       <span class="footer-title opacity-80">Sponsor</span>
       <a class="max-w-[260px]" href="https://getkiln.ai">
