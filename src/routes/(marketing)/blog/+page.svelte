@@ -22,7 +22,11 @@
   {#each sortedBlogPosts as post}
     <a href={post.link}>
       <div class="card my-6 bg-white shadow-xl flex-row overflow-hidden">
-        <div class="flex-none w-6 md:w-32 bg-secondary"></div>
+        <img
+          src={post.imageLink}
+          style="width:100px;height:100px;"
+          alt="empty"
+        />
         <div class="py-6 px-6">
           <div class="text-xl">{post.title}</div>
           <div class="text-sm text-accent">
