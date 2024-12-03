@@ -34,7 +34,7 @@
     <!-- Current Status -->
     <div class="mb-6">
       <h2 class="text-lg font-semibold">Current Status:</h2>
-      <p class="text-green-600 font-bold text-lg">In Use</p>
+      <p class="text-red-600 font-bold text-lg">Disposed</p>
     </div>
 
     <!-- Usage Instructions -->
@@ -53,9 +53,12 @@
           id="usage-instructions"
         >
           <ul class="list-disc ml-6">
-            <li>Avoid exposure to extreme temperatures.</li>
+            <li>
+              Ensure that footwear reaches shin height, covering any clothing
+              articles.
+            </li>
             <li>Use only on appropriate surfaces for optimal performance.</li>
-            <li>Do not submerge in water for prolonged periods.</li>
+            <li>Do not fully submerge in liquids.</li>
           </ul>
         </div>
       </div>
@@ -79,7 +82,7 @@
           <ul class="list-disc ml-6">
             <li>Wipe with a damp cloth to remove dirt.</li>
             <li>Air dry in a shaded area after cleaning.</li>
-            <li>Apply appropriate protective coating every two weeks.</li>
+            <li>Check for any potentially compromised areas.</li>
           </ul>
         </div>
       </div>
@@ -119,16 +122,16 @@
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Production</a></td>
               <td class="px-4 py-2"
-                >Manufactured in Spain using recycled leather.</td
+                >Manufactured in China using 70% recycled rubber.</td
               >
             </tr>
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Historical Data</a></td>
-              <td class="px-4 py-2">Produced on 2022-05-20.</td>
+              <td class="px-4 py-2">Disposed of on 2022-05-20.</td>
             </tr>
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Lifecycle Status</a></td>
-              <td class="px-4 py-2">Currently in use.</td>
+              <td class="px-4 py-2">Disposed.</td>
             </tr>
           </tbody>
         </table>

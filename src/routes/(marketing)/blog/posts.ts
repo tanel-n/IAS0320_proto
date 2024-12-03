@@ -7,7 +7,6 @@ export type BlogPost = {
   date: string // date is a string 'YYYY-MM-DD'
   title: string
   description: string
-  picture_link: string
   parsedDate?: Date // Optional because it's added dynamically
 }
 
@@ -15,25 +14,22 @@ export type BlogPost = {
 // Create a page in the "(posts)" directory for each entry
 const blogPosts: BlogPost[] = [
   {
-    title: "Sneakers",
+    title: "Loafers",
     description: "",
     link: "/dfp/1",
     date: "2022-03-10",
-    picture_link: ""
   },
   {
-    title: "Hiking boots",
+    title: "Sneakers",
     description: "",
     link: "/dfp_1/1",
     date: "2022-2-23",
-    picture_link: ""
   },
   {
     title: "Wellingtons",
     description: "",
     link: "/dfp_2/1",
     date: "2021-03-13",
-    picture_link: "https://images.outdoorandcountry.co.uk/image/upload/e_trim:2/bo_8px_solid_white/c_pad,b_white,w_1000,h_1200,f_auto,q_auto/v1535405096/product/87561.jpg"
   },
 ]
 

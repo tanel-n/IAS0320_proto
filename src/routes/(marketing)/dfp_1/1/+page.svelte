@@ -34,7 +34,7 @@
     <!-- Current Status -->
     <div class="mb-6">
       <h2 class="text-lg font-semibold">Current Status:</h2>
-      <p class="text-green-600 font-bold text-lg">In Use</p>
+      <p class="text-yellow-600 font-bold text-lg">Not In Use</p>
     </div>
 
     <!-- Usage Instructions -->
@@ -53,8 +53,8 @@
           id="usage-instructions"
         >
           <ul class="list-disc ml-6">
-            <li>Different text.</li>
-            <li>Use only on appropriate surfaces for optimal performance.</li>
+            <li>Apply waterproof covering before first usage.</li>
+            <li>Do not use for traversal in rocky and/or rough terrain.</li>
             <li>Do not submerge in water for prolonged periods.</li>
           </ul>
         </div>
@@ -118,19 +118,15 @@
           <tbody>
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Production</a></td>
-              <td class="px-4 py-2"
-                >Manufactured in Germany using recycled leather.</td
-              >
+              <td class="px-4 py-2">Manufactured in Spain.</td>
             </tr>
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Historical Data</a></td>
-              <td class="px-4 py-2"
-                >Purchased on 2023-05-20, last repaired on 2024-01-15.</td
-              >
+              <td class="px-4 py-2">In storage as of 2022-03-15.</td>
             </tr>
             <tr class="border-t">
               <td class="px-4 py-2"><a href="/">Lifecycle Status</a></td>
-              <td class="px-4 py-2">Currently in use.</td>
+              <td class="px-4 py-2">Currently not in use.</td>
             </tr>
           </tbody>
         </table>

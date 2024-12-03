@@ -17,7 +17,7 @@
       {blogInfo.name}
     </div>
   </div>
-  <div class="text-lg text-center">List of registered shoeware.</div>
+  <div class="text-lg text-center">List of registered footwear.</div>
 
   {#each sortedBlogPosts as post}
     <a href={post.link}>

@@ -77,7 +77,9 @@
           id="daily-care-instructions"
         >
           <ul class="list-disc ml-6">
-            <li>Wipe with a damp cloth to remove dirt.</li>
+            <li>
+              Use rough brush applied with shoe polish to perform cleaning.
+            </li>
             <li>Air dry in a shaded area after cleaning.</li>
             <li>Apply appropriate protective coating every two weeks.</li>
           </ul>
