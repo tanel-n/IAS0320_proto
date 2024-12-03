@@ -87,6 +87,7 @@
   <footer
     class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
   >
+    <!--
     <nav>
       <span class="footer-title opacity-80">Explore</span>
       <a class="link link-hover mb-1" href="/">Overview</a>
@@ -111,5 +112,6 @@
         <div class="link text-sm font-bold mt-2">Learn More</div>
       </a>
     </aside>
+    -->
   </footer>
 </div>

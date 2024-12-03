@@ -1,6 +1,5 @@
 export const blogInfo = {
-  name: "SaaS Starter Blog",
-  description: "A sample blog",
+  name: "DFP Footwear listing",
 }
 
 export type BlogPost = {
@@ -16,19 +15,19 @@ export type BlogPost = {
 const blogPosts: BlogPost[] = [
   {
     title: "Product 1",
-    description: "How to use this template you to bootstrap your own site.",
+    description: "",
     link: "/dfp/1",
     date: "2024-03-10",
   },
   {
     title: "Product 2",
-    description: "Even more example content!",
+    description: "",
     link: "/dfp_1/1",
     date: "2023-9-23",
   },
   {
     title: "Product 3",
-    description: "A sample blog post, showing our blog engine",
+    description: "",
     link: "/dfp_2/1",
     date: "2022-03-13",
   },

@@ -79,7 +79,7 @@
   </div>
 </div>
 
-<div class="card bg-white w-[270px] min-h-[300px] flex-none shadow-xl">
+<div class="card bg-white w-[200px] min-h-[200px] flex-none shadow-xl">
   <div class="card-body items-center text-center p-[24px] pt-[32px]">
     <div>
       <svg
@@ -97,9 +97,6 @@
     <h2 class="card-title">
       {feature.name}
     </h2>
-    <p class="text-sm">
-      {feature.description}
-    </p>
     {#if feature.link}
       <a
         href={feature.link}
@@ -108,13 +105,36 @@
       >
         <button
           class="btn btn-xs btn-outline rounded-full btn-primary min-w-[100px]"
-          >{feature.linkText ? feature.linkText : "Try It"}</button
+          >{feature.linkText ? feature.linkText : "Click Here"}</button
         >
       </a>
     {/if}
   </div>
 </div>
 
+<!--
+<div class="card bg-white w-[150px] min-h-[150px] flex-none shadow-xl">
+  <a href={feature.link} class="pb-4" target={feature.newPage ? "_blank" : ""}>
+    <button class="card-body items-center text-center p-[24px] pt-[32px]">
+      <div>
+        <svg
+          width="50px"
+          height="50px"
+          class="mb-2 mt-1"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {@html feature.svgContent}
+        </svg>
+      </div>
+      <h2 class="card-title">
+        {feature.name}
+      </h2>
+    </button>
+  </a>
+</div>
+-->
 <!--
 <div class="min-h-[60vh]">
   <div class="pt-20 pb-8 px-7">
